@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cart-Items-STREET MART</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;600&family=Ubuntu:wght@300&display=swap">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="po1.png" width="100px"></a>
+                <p>MART WE BELIEVE IN PEACE AND PASSION</p>
+            </div>
+            <nav class="nav">
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#foot">Contacts</a></li>
+                    <li><a href="http://">About</a></li>
+                    <li><a href="login.html">Account</a></li>
+                </ul>
+            </nav>
+            <div class="kart">
+                <a href="cart.html"><img src="cart.png" width="30px" height="30px"></a>
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+
+    <!-- --------cart item details--------- -->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="ui - buy.jpg">
+                        <div>
+                            <p>Printed Shirt for Men: Beach Wear</p>
+                            <small>Price:$47.80</small>
+                            <br> <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$47.80</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="buy-2.jpg">
+                        <div>
+                            <p>Black Casual Sneakers For Men</p>
+                            <small>Price:$200.67</small>
+                            <br> <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$200.67</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="by-3.jpg">
+                        <div>
+                            <p>Blue solid top</p>
+                            <small>Price:$29.87</small>
+                            <br> <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$29.87</td>
+            </tr>
+        </table>
+
+        <div class="total">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$344.67</td>
+                </tr>
+                <tr>
+                    <td>Gst</td>
+                    <td>$40.2</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$384.87</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+    <!--........... footer,,,,,,,, -->
+    <div class="footer" id="foot">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App </h3>
+                    <p>Download App for Andriod and ios mobile phones </p>
+                    <div class="app-logo">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="lop.png">
+                    <p> Our purpose is to provide you quality at best price.We let you to chase vision not money.As we
+                        believe in peace and passion</p>
+
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links </h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                        <li>Security</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+
+                <!-- logosa -->
+                <div class="footer-col-4">
+                    <h3>connect with us </h3>
+                    <a href="https://www.facebook.com/profile.php?id=100012286477675" class="fa fa-facebook"
+                        class="a"></a>
+                    <a href="https://twitter.com/MohammedTabrezQ" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/tabrezqureshi43/" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="https://www.linkedin.com/in/mohammed-tabrez-3a644a234/" class="fa fa-linkedin"></a>
+                    <a href="https://discord.com/channels/@me"><img src="dis.png" style="width: 25px;"></a>
+
+
+                    <div class="mail">
+                        <h4>Mail Us:</h4>
+                        <a href="mdtabrezk281@gmail.com">mdtabrezk281@mail.com</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="cpyright"> Copyright 2022-Street Mart </p>
+        </div>
+    </div>
+
+    <!-- js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    <!-- --------js for product gallery----- -->
+
+</body>
+
+</html>

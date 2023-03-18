@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login page-Street Mart</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;600&family=Ubuntu:wght@300&display=swap">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="po1.png" width="100px"></a>
+                <p>MART WE BELIEVE IN PEACE AND PASSION</p>
+            </div>
+            <nav class="nav">
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#foot">Contacts</a></li>
+                    <li><a href="http://">About</a></li>
+                    <li><a href="login.html">Account</a></li>
+                </ul>
+            </nav>
+            <div class="kart">
+                <a href="cart.html"><img src="cart.png" width="30px" height="30px"></a>
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cont">
+        <div class="form sign-in">
+            <h2>Sign In</h2>
+            <label>
+                <span>Email Address</span>
+                <input type="email" name="email">
+            </label>
+            <label>
+                <span>Password</span>
+                <input type="password" name="password">
+            </label>
+            <button class="submit" type="button">Sign In</button>
+            <p class="forgot-pass">Forgot Password ?</p>
+
+            <div class="social-media">
+                <ul>
+                    <li><img src="facebook.png"></li>
+                    <li><img src="twitter.png"></li>
+                    <li><img src="linkedin.png"></li>
+                    <li><img src="instagram.png"></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sub-cont">
+            <div class="img">
+                <div class="img-text m-up">
+                    <h2>New here?</h2>
+                    <p>Sign up and discover the new fashion and trends around the globe!</p>
+                </div>
+                <div class="img-text m-in">
+                    <h2>One of us?</h2>
+                    <p>If you already has an account, just sign in. We've missed you!</p>
+                </div>
+                <div class="img-btn">
+                    <span class="m-up">Sign Up</span>
+                    <span class="m-in">Sign In</span>
+                </div>
+            </div>
+            <div class="form sign-up">
+                <h2>Sign Up</h2>
+                <label>
+                    <span>Name</span>
+                    <input type="text">
+                </label>
+                <label>
+                    <span>Email</span>
+                    <input type="email">
+                </label>
+                <label>
+                    <span>Password</span>
+                    <input type="password">
+                </label>
+                <label>
+                    <span>Confirm Password</span>
+                    <input type="password">
+                </label>
+                <button type="button" class="submit">Sign Up Now</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+
+    <!--........... footer,,,,,,,, -->
+    <div class="footer" id="foot">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App </h3>
+                    <p>Download App for Andriod and ios mobile phones </p>
+                    <div class="app-logo">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="lop.png">
+                    <p> Our purpose is to provide you quality at best price.We let you to chase vision not money.As we
+                        believe in peace and passion</p>
+
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links </h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                        <li>Security</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+
+                <!-- logosa -->
+                <div class="footer-col-4">
+                    <h3>connect with us </h3>
+                    <a href="https://www.facebook.com/profile.php?id=100012286477675" class="fa fa-facebook"
+                        class="a"></a>
+                    <a href="https://twitter.com/MohammedTabrezQ" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/tabrezqureshi43/" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="https://www.linkedin.com/in/mohammed-tabrez-3a644a234/" class="fa fa-linkedin"></a>
+                    <a href="https://discord.com/channels/@me"><img src="dis.png" style="width: 25px;"></a>
+
+
+                    <div class="mail">
+                        <h4>Mail Us:</h4>
+                        <a href="mdtabrezk281@gmail.com">mdtabrezk281@mail.com</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="cpyright"> Copyright 2022-Street Mart </p>
+        </div>
+    </div>
+
+    <!-- js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    <!-- --------js for product gallery----- -->
+
+</body>
+
+</html>

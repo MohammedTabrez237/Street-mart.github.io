@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> all products-Street Mart</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;600&family=Ubuntu:wght@300&display=swap">
+
+    <!-- <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="po1.png" width="100px"></a>
+                <p>MART WE BELIEVE IN PEACE AND PASSION</p>
+            </div>
+            <nav class="nav">
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#foot">Contacts</a></li>
+                    <li><a href="http://">About</a></li>
+                    <li><a href="login.html">Account</a></li>
+                </ul>
+            </nav>
+            <div class="kart">
+                <a href="cart.html"><img src="cart.png" width="30px" height="30px"></a>
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------single product details--------- -->
+
+
+    <div class="small-container  single-prod">
+        <div class="row">
+            <div class="col-2">
+                <img src="ot.jpg" width="100%" id="productimg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="ot.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="ot2.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="ot3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="ot4.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home/T-Shirt</p>
+                <h1>Printed Shirt for Beach Wear</h1>
+                <h4>$34.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>Small(S)</option>
+                    <option>Medium(M)</option>
+                    <option>Large(L)</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                </select>
+                <input type="number" value="1">
+                <a href="http://127.0.0.1:5500/productdetails.html" class="btn-3">Add to Cart</a>
+                <h3>Product Details </i></h3>
+                <br>
+                <p>Give your summer wardrobe a style upgrade with SRT Beach wear Shirt.Team it with shorts,expecially
+                    designed to wear near beaches and have comfortable and stylish summer trips</p>
+            </div>
+        </div>
+    </div>
+    <!-- -------title------ -->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <a href="products.html">
+                <p>View more</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- --------products------- -->
+    <div class="small-container">
+
+        <div class="row">
+            <div class="col-4">
+                <img src="jh.jpg">
+                <h4>Men Casual Black Denim Jacket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$17.80</p>
+            </div>
+            <div class="col-4">
+                <img src="product-10.jpg">
+                <h4>Black Casual Sneakers For Men</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$100.67</p>
+            </div>
+            <div class="col-4">
+                <img src="product-12.jpg">
+                <h4>Fastdry Active Essential Track Pants</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$20.0</p>
+            </div>
+            <div class="col-4">
+                <img src="pro2.jpg">
+                <h4>ETHNIC DESIGNER KURTA PAJAMA </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$69.80</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--........... footer,,,,,,,, -->
+    <div class="footer" id="foot">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App </h3>
+                    <p>Download App for Andriod and ios mobile phones </p>
+                    <div class="app-logo">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="lop.png">
+                    <p> Our purpose is to provide you quality at best price.We let you to chase vision not money.As we
+                        believe in peace and passion</p>
+
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links </h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                        <li>Security</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+
+                <!-- logosa -->
+                <div class="footer-col-4">
+                    <h3>connect with us </h3>
+                    <a href="https://www.facebook.com/profile.php?id=100012286477675" class="fa fa-facebook"
+                        class="a"></a>
+                    <a href="https://twitter.com/MohammedTabrezQ" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/tabrezqureshi43/" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="https://www.linkedin.com/in/mohammed-tabrez-3a644a234/" class="fa fa-linkedin"></a>
+                    <a href="https://discord.com/channels/@me"><img src="dis.png" style="width: 25px;"></a>
+
+
+                    <div class="mail">
+                        <h4>Mail Us:</h4>
+                        <a href="mdtabrezk281@gmail.com">mdtabrezk281@mail.com</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="cpyright"> Copyright 2022-Street Mart </p>
+        </div>
+    </div>
+
+    <!-- js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    <!-- --------js for product gallery----- -->
+    <script>
+        var productimg = document.getElementById("productimg");
+        var smallimg = document.getElementsByClassName("small-img");
+        smallimg[0].onclick = function () {
+            productimg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function () {
+            productimg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function () {
+            productimg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function () {
+            productimg.src = smallimg[3].src;
+        }
+    </script>
+</body>
+
+</html>
