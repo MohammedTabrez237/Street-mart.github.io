@@ -9,3 +9,23 @@ Street Mart is a e-commerce website designed usong html,Css and few codes of jav
 <br>
 *JAVASCRIPT
 
+
+# :film_strip: SCREENSHOTS:
+## Desktop:
+
+![Screenshot (105)](https://user-images.githubusercontent.com/109822837/226108484-bd63ff76-62cd-4c6f-9d10-b896f0cd221b.png)
+
+![Screenshot (111)](https://user-images.githubusercontent.com/109822837/226109087-4414d11d-3974-4da9-b6d5-450b0d66aa2a.png)
+
+![Screenshot (115)](https://user-images.githubusercontent.com/109822837/226109862-04551070-5b9b-49bb-bfe5-2a323a95d789.png)
+
+<br>
+
+![Screenshot (116)](https://user-images.githubusercontent.com/109822837/226109924-63d39e7d-ae70-4844-b0bc-c46168b75f5e.png)
+
+![Screenshot (118)](https://user-images.githubusercontent.com/109822837/226109962-5f38907d-0854-4dc4-b3c0-2917c122ff27.png)
+
+![Screenshot (122)](https://user-images.githubusercontent.com/109822837/226110002-f8391dec-048c-4dd2-9f0a-a7f9ec9a40f8.png)
+
+![Screenshot (120)](https://user-images.githubusercontent.com/109822837/226110037-afa26d0f-29bd-4b9e-86c0-c56f898313ec.png)
+
