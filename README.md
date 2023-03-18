@@ -27,7 +27,7 @@ Street Mart is a e-commerce website designed usong html,Css and few codes of jav
 ![Screenshot (120)](https://user-images.githubusercontent.com/109822837/226120574-15e2021a-7c96-454f-b49c-84a905f1c63f.png)
 
 ## Phone
-![1](https://user-images.githubusercontent.com/109822837/226120903-9e18690e-87f5-40f6-96af-a72f5c73e0d2.jpeg)
+![1](https://user-images.githubusercontent.com/109822837/226120903-9e18690e-87f5-40f6-96af-a72f5c73e0d2.jpeg height="200" width="200" )
 
 ![2](https://user-images.githubusercontent.com/109822837/226120983-9488c2dc-0167-4156-8464-f2b98d36db74.jpeg)
 
