@@ -3,9 +3,9 @@ Street Mart is a e-commerce website designed usong html,Css and few codes of jav
 
 #:hammer_and_pick:Technologies Used
 <br>
-:red_circle:HTML
+HTML
 <br>
-:red_circle:CSS
+CSS
 <br>
-:red_circle:JAVASCRIPT
+JAVASCRIPT
 
